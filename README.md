@@ -1,12 +1,6 @@
 # Simple Banking Application
 
-## Task 3: Simple Banking Application
-
-**Level:** 2 (Intermediate)\
-**Language:** Java\
-**Project Type:** Console-Based Application
-
-## Project Description
+## Description
 
 The Simple Banking Application is a Java console-based project that
 allows users to perform basic banking operations. Users can deposit
@@ -55,66 +49,12 @@ concepts and basic user interaction in Java.
 -   User input using `Scanner`
 -   Basic error handling
 
-## Application Menu
-
-``` text
-===== BANK MENU =====
-1. Deposit
-2. Withdraw
-3. Balance
-4. Account Details
-5. Exit
-```
-
-## How to Run the Project
-
-### 1. Install Java
-
-Install the Java Development Kit (JDK) on your computer.
-
-### 2. Open the Project
-
-Open the project folder in Visual Studio Code or another Java IDE.
-
-### 3. Compile the Program
-
-Open the terminal and run:
-
-``` bash
-javac BankingSystem.java
-```
-
-### 4. Run the Program
-
-``` bash
-java BankingSystem
-```
-
 ### 5. Use the Application
 
 -   Enter the account holder's name.
 -   Enter the required menu option.
 -   Follow the instructions displayed in the console.
 -   Select option `5` to exit the application.
-
-## Sample Output
-
-``` text
-WELCOME TO BANK
-
-Enter your name: Rahul
-
-===== BANK MENU =====
-1. Deposit
-2. Withdraw
-3. Balance
-4. Account Details
-5. Exit
-
-Enter choice: 1
-Enter amount: 500
-Money deposited successfully!
-```
 
 ## Error Handling
 
@@ -130,23 +70,3 @@ The application handles common banking errors, including:
 After completing this project, the learner will understand how to create
 a simple menu-driven Java application using classes, objects, methods,
 loops, and conditional statements.
-
-## Future Improvements
-
-The application can be improved by adding:
-
--   Account number generation.
--   PIN-based login.
--   Transaction history.
--   Mini statement.
--   Multiple bank accounts.
--   File or database storage.
--   Transfer money functionality.
-
-## Author
-
-**Your Name**
-
-## License
-
-This project is created for educational and practice purposes.
